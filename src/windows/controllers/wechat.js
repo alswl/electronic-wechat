@@ -157,9 +157,9 @@ class WeChatWindow {
   }
 
   registerLocalShortcut() {
-    electronLocalShortcut.register(this.wechatWindow, 'Esc', () => {
-      this.wechatWindow.close();
-    });
+    //electronLocalShortcut.register(this.wechatWindow, 'Esc', () => {
+      //this.wechatWindow.close();
+    //});
   }
 
   unregisterLocalShortCut() {
